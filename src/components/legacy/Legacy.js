@@ -1,13 +1,13 @@
 import React from 'react'
 
-class About extends React.Component {
+class Legacy extends React.Component {
 
     render() {
         return (
             
                 
-                        <section className="primary-text-dw full-height" id='about'>
-                        <h2>About</h2>
+                        <section className="primary-text-dw full-height" id='legacy'>
+                        <h2>Legacy</h2>
                             Sed ut perspiciatis unde omnis iste natus error sit
                             voluptatem accusantium doloremque laudantium, totam rem
                             aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
@@ -23,9 +23,10 @@ class About extends React.Component {
                             eum fugiat quo voluptas nulla pariatur?"
                         </section>
                  
+            
         )
     }
 }
 
 
-export default About;
+export default Legacy;

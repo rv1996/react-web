@@ -1,31 +1,89 @@
 import React from 'react';
 
+import './contact.css';
+
+
 class Contact extends React.Component {
 
     render() {
         return (
-            <>
-                
-                            
-                            <div className="primary-text-dw full-height" id='contact'>
-                            <h2>Contact Details</h2>
-                                Sed ut perspiciatis unde omnis iste natus error sit
-                                voluptatem accusantium doloremque laudantium, totam rem
-                                aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
-                                beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                                aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
-                                ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
-                                ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non
-                                numquam eius modi tempora incidunt ut labore et dolore magnam aliquam
-                                quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem
-                                ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis
-                                autem vel eum iure reprehenderit qui in ea
-                                voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem
-                                eum fugiat quo voluptas nulla pariatur?"
-                                esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
+            <section id="contact">
+                <footer id="footer" className="footer-1">
+                    <div className="main-footer widgets-dark typo-light">
+                        <div className="container-fluid">
+                            <div className="row">
+
+                                <div className="col-xs-12 col-sm-6 col-md-3">
+                                    <div className="widget subscribe no-box">
+                                        <h5 className="widget-title">COMPANY NAME<span></span></h5>
+                                        <p>About the company, little discription will goes here.. </p>
+                                    </div>
+                                </div>
+
+                                <div className="col-xs-12 col-sm-6 col-md-3">
+                                    <div className="widget no-box">
+                                        <h5 className="widget-title">Quick Links<span></span></h5>
+                                        <ul className="thumbnail-widget">
+                                            <li>
+                                                <div className="thumb-content"><a href="#.">Get Started</a></div>
+                                            </li>
+                                            <li>
+                                                <div className="thumb-content"><a href="#.">Top Leaders</a></div>
+                                            </li>
+                                            <li>
+                                                <div className="thumb-content"><a href="#.">Success Stories</a></div>
+                                            </li>
+                                            <li>
+                                                <div className="thumb-content"><a href="#.">Event/Tickets</a></div>
+                                            </li>
+                                            <li>
+                                                <div className="thumb-content"><a href="#.">News</a></div>
+                                            </li>
+                                            <li>
+                                                <div className="thumb-content"><a href="#.">Lifestyle</a></div>
+                                            </li>
+                                            <li>
+                                                <div className="thumb-content"><a href="#.">About</a></div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div className="col-xs-12 col-sm-6 col-md-3">
+                                    <div className="widget no-box">
+                                        <h5 className="widget-title">Get Started<span></span></h5>
+                                        <p>Get access to your full Training and Marketing Suite.</p>
+                                        <a className="btn" href="#." target="_blank">Register Now</a>
+                                    </div>
+                                </div>
+
+                                <div className="col-xs-12 col-sm-6 col-md-3">
+
+                                    <div className="widget no-box">
+                                        <h5 className="widget-title">Contact Us<span></span></h5>
+
+                                        <p><a href="mailto:info@domain.com" title="glorythemes">info@domain.com</a></p>
+                                        <ul className="social-footer2">
+                                            <li className=""><a title="youtube" target="_blank" href="https://www.youtube.com/"></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+
                             </div>
-                
-            </>
+                        </div>
+                    </div>
+
+                    <div className="footer-copyright">
+                        <div className="container">
+                            <div className="row">
+                                <div className="col-md-12 text-center">
+                                    <p>Copyright Company Name © 2016. All rights reserved.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+            </section>
         )
     }
 }
