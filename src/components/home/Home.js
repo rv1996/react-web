@@ -1,31 +1,34 @@
 import React from 'react';
+import yellow_box from '../../assets/image/yellow_box.svg';
+import illustration from '../../assets/image/illustration.svg';
 
 class Home extends React.Component {
 
     render() {
         return (
-            <>
-                
-                            
-                            <div className="primary-text-dw full-height" id='home'>
-                            <h2>Home</h2>
-                                Sed ut perspiciatis unde omnis iste natus error sit
-                                voluptatem accusantium doloremque laudantium, totam rem
-                                aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto
-                                beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                                aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
-                                ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem
-                                ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non
-                                numquam eius modi tempora incidunt ut labore et dolore magnam aliquam
-                                quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem
-                                ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis
-                                autem vel eum iure reprehenderit qui in ea
-                                voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem
-                                eum fugiat quo voluptas nulla pariatur?"
-                                esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"
-                            </div>
-                  
-            </>
+
+            <section className="main" id='home'>
+                <div className="container">
+                    <div className="row">
+                        <div className="col-12 mx-auto text-center">
+                            <img src={illustration} className="illustration" alt="needle" />
+                        </div>
+                    </div>
+                </div>
+
+                <div className="name">
+                    <svg height="100" stroke="#fbe551" strokeWidth="2" className="text-line" width="100%">
+                        <text x="50%" className="main_text" dominantBaseline="middle" textAnchor="middle" y="50%">Darjiwala</text>
+                    </svg>
+                </div>
+
+                <p className="text-center legacy_text">Legacy of 65 years</p>
+                <p className="text-center shop_text">One stop shop for Men's ethnic wear</p>
+
+                <img className="anime_box" src={yellow_box} alt="box" />
+            </section>
+
+
         )
     }
 }
