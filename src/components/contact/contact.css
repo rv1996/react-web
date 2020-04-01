@@ -76,3 +76,12 @@ box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 transition: all 250ms ease-in-out 0s;
 
 }
+
+.mapImage{
+	height: 100%;
+}
+
+.bottom-footer{
+	padding-left: 3rem;
+	padding-right: 3rem
+}

@@ -1,5 +1,4 @@
 import React from 'react';
-import yellow_box from '../../assets/image/yellow_box.svg';
 import illustration from '../../assets/image/illustration.svg';
 
 class Home extends React.Component {
@@ -25,7 +24,6 @@ class Home extends React.Component {
                 <p className="text-center legacy_text">Legacy of 65 years</p>
                 <p className="text-center shop_text">One stop shop for Men's ethnic wear</p>
 
-                <img className="anime_box" src={yellow_box} alt="box" />
             </section>
 
 
