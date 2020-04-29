@@ -1,0 +1,38 @@
+.legacyHeading > h1{
+    color:white !important;
+    font-size: xx-large !important;
+    padding: 2rem;
+}
+
+.legacyContent > p{
+    font-size: medium !important;
+}
+
+.legacyHigh{
+    color: #eb792a !important;
+    font-weight: bold;
+}
+.textLeft > p{
+    padding: 3px;
+}
+
+.textRight > p{
+    padding: 3px;
+}
+
+.textLeft{
+    border-left: solid .5rem #eb792a;
+
+}
+
+.textRight{
+    border-right: solid .5rem #eb792a;
+}
+
+.textParent{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-bottom: 25px !important;
+    margin-top: 15px !important;
+}
+

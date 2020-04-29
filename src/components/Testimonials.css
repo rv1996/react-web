@@ -1,0 +1,14 @@
+
+.customers h1{
+    font-size: x-large !important;
+    color: white !important;
+}
+
+.customers img{
+    height: 50vh;
+}
+
+.customers{
+    justify-content: center;
+    padding-bottom: 3rem;
+}

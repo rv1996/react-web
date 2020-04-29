@@ -1,0 +1,21 @@
+.contactUs {
+    font-size: large !important;
+    font-weight: 600 !important;
+    text-align: center;
+}
+
+.contactHeading h1{
+    font-size: xx-large !important;
+}
+
+.contactHeading{
+    font-size: xx-large;
+    color: white;
+    padding-top: 1rem;
+}
+
+.mapImage{
+    padding: 2rem;
+    height:20em;
+    width: 100%;
+}

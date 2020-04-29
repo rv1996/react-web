@@ -1,0 +1,10 @@
+.serviceHeading > h1 {
+
+    font-size: xx-large !important;
+}
+.card-body > h1{
+    font-size: large !important;
+    font-weight: 600 !important;
+    color: black !important;
+
+}

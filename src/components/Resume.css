@@ -1,0 +1,15 @@
+.aboutHeading > h1{
+    color:black !important;
+    font-size: xx-large !important;
+    padding: 2rem;
+    
+}
+
+.aboutHigh{
+    color: #eb792a !important;
+    font-weight: bold;
+}
+
+.aboutContent > p{
+    font-weight: 500;
+}
