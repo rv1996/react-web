@@ -199,7 +199,7 @@ ul#nav li.current a { color: #F06000; }
 #about {
    background: #2B2B2B;
    padding-top: 3rem;
-   padding-bottom: 66px;
+   padding-bottom: 4.5rem;
    overflow: hidden;
 }
 
@@ -248,7 +248,7 @@ ul#nav li.current a { color: #F06000; }
 #resume {
    background: #fff;
    padding-top: 3rem;
-   padding-bottom: 72px;
+   padding-bottom: 4 rem;
    overflow: hidden;
 }
 
@@ -622,7 +622,7 @@ call-to-action .button {
 
 #contact {
    background: #191919;
-   padding-top: 3rem;
+   padding-top: 1rem;
    padding-bottom: 102px;
    color: #636363;
 }

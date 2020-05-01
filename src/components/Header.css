@@ -6,7 +6,7 @@
   .main {
     height:100vh;
     width:100%;
-    padding:14rem 0 0 0;
+    padding:22rem 0 0 0;
   }
   .anime_box {
     margin-left:26rem;
@@ -14,7 +14,7 @@
   }
   .legacy_text {
     color:#fff;
-    font-family: 'Gabriela', serif;
+    /* font-family: 'Gabriela', serif; */
     font-size:3rem;
     animation:display 4s;
     padding:0px !important;
@@ -22,13 +22,13 @@
   }
   .shop_text {
     color:#fff;
-    font-family: 'Gabriela', serif;
+    /* font-family: 'Gabriela', serif; */
     font-size:1.8rem;
     animation:display 4s;
   }
   .illustration {
     animation:display 4s;
-    width:25rem;
+    width:27rem;
   }
   
   @keyframes display {
@@ -40,8 +40,8 @@
   .text-line {
     stroke-dasharray: 500;
     stroke-dashoffset: 500;
-    animation: dash 3s linear forwards, filling 5s ease-in forwards;
-    font-size: 80px;
+    animation: dash 3s linear forwards, filling 3s ease-in forwards;
+    font-size: 12rem;
   }
   
   .text-line text {
@@ -75,8 +75,16 @@
     }
   }
   @media only screen and (max-width:768px) {
+
+    .text-line {
+      stroke-dasharray: 500;
+      stroke-dashoffset: 500;
+      animation: dash 3s linear forwards, filling 3s ease-in forwards;
+      font-size: 7rem;
+    }
+
     .main {
-        padding:10rem 0 0 0;
+        padding:20rem 0 0 0;
     }
     .anime_box {
         width:38rem;

@@ -30,6 +30,8 @@ e. Others
 @import url("fontello/css/fontello.css");
 @import url("font-awesome/css/font-awesome.min.css");
 
+/* Importing google font */
+
 /* ------------------------------------------------------------------
 /* b. Reset
       Adapted from:
@@ -616,7 +618,7 @@ properly.
 @media only screen and (max-width: 767px) {
 
    .row {
-	   width: 90%;
+	   width: 100%;
 	   margin: 0 auto !important;
       padding: 0;
 	}

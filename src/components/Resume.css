@@ -1,7 +1,9 @@
 .aboutHeading > h1{
     color:black !important;
-    font-size: xx-large !important;
-    padding: 2rem;
+    font-size: 4.5rem !important;
+    padding: 1rem;
+    text-align: center !important;
+    margin-top: 0px;
     
 }
 
@@ -13,3 +15,17 @@
 .aboutContent > p{
     font-weight: 500;
 }
+
+@media only screen and (max-width: 600px) {
+    .aboutContent{
+        padding: 0px;
+    }
+ 
+    #scrollAbout{
+        padding: 0px;
+    }
+
+    #resume > div {
+        padding: 0px;
+    }
+ }

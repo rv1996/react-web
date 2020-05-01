@@ -1,10 +1,21 @@
 .serviceHeading > h1 {
 
-    font-size: xx-large !important;
+    font-size: 4rem !important;
+    line-height: 1 !important;
 }
+
+
 .card-body > h1{
     font-size: large !important;
     font-weight: 600 !important;
-    color: black !important;
-
+    color: #657676 !important;
 }
+
+@media only screen and (max-width: 600px) {
+    .serviceHeading > h1 {
+        margin-bottom: 2rem !important;
+    }
+    #portfolio{
+        padding-top: 1rem;
+    }
+ }

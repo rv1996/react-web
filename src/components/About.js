@@ -7,7 +7,7 @@ export default class About extends Component {
          <section id="about">
             <div className="container" id="scrollAbout">
                <div className="row">
-                  <div className="legacyHeading"><h1>THE JOURNEY...</h1></div>
+                  <div className="legacyHeading"><h1>LEGACY</h1></div>
                   <div className="legacyContent container">
                      <div className="row textParent">
                         <div className="col-sm-8 col-md-8 col-lg-8">

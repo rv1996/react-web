@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import illustration from '../assets/image/illustration.svg';
+
 import './Header.css';
 export default class Header extends Component {
   render() {
@@ -38,7 +39,7 @@ export default class Header extends Component {
                 </div>
 
                 <div className="name">
-                    <svg height="100" stroke="#eb792a" strokeWidth="2" className="text-line" width="100%">
+                    <svg height="120" stroke="#eb792a" strokeWidth="2" className="text-line" width="100%">
                         <text x="50%" className="main_text" dominantBaseline="middle" textAnchor="middle" y="50%">Darjiwala</text>
                     </svg>
                 </div>

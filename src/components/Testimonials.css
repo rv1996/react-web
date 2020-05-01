@@ -19,6 +19,9 @@
     color: white !important;
     margin: 0px;
     padding: 2rem;
+    font-size: 5rem !important;
+    font-family: opensans-semibold, sans-serif;
+    letter-spacing: 3px;
 }
 
 .testimonials  p {
@@ -50,7 +53,7 @@
 
 @media only screen and (max-width: 900px) {
     .customers img{
-        height: 45vh !important;
+        height: 45vh;
     }
 }
 

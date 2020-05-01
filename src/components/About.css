@@ -1,7 +1,9 @@
 .legacyHeading > h1{
     color:white !important;
-    font-size: xx-large !important;
-    padding: 2rem;
+    font-size: 4.5rem !important;
+    padding: 1rem;
+    text-align: center !important;
+    margin-top: 0px;
 }
 
 .legacyContent > p{
@@ -11,22 +13,30 @@
 .legacyHigh{
     color: #eb792a !important;
     font-weight: bold;
+    
 }
 .textLeft > p{
-    padding: 3px;
+    padding: 2px;
+    
 }
 
 .textRight > p{
-    padding: 3px;
+    padding: 2px;
 }
 
 .textLeft{
     border-left: solid .5rem #eb792a;
+    font-size: medium !important; 
+    padding:1rem;
+    padding-left: 2rem;
 
 }
 
 .textRight{
     border-right: solid .5rem #eb792a;
+    font-size: medium !important;
+    padding:1rem;
+    padding-right: 2rem;
 }
 
 .textParent{
@@ -36,3 +46,12 @@
     margin-top: 15px !important;
 }
 
+@media only screen and (max-width: 600px) {
+   .legacyContent{
+       padding: 0px;
+   }
+
+   #scrollAbout{
+       padding: 0px;
+   }
+}
