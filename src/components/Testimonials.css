@@ -5,10 +5,109 @@
 }
 
 .customers img{
-    height: 50vh;
+    height: 40vh;
 }
 
 .customers{
     justify-content: center;
     padding-bottom: 3rem;
 }
+
+
+
+.testimonials  h1 {
+    color: white !important;
+    margin: 0px;
+    padding: 2rem;
+}
+
+.testimonials  p {
+    color: white !important;
+    padding: 1rem !important;
+    font-size: large;
+    text-align: center;
+}
+
+.img-responsive{
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.rakeshWord{
+    padding-top: 3rem;
+}
+
+.rakeshWord p{
+    text-align: left !important;
+    
+}
+
+.citeRakesh{
+    color: white;
+    padding: 2rem;
+    font-size: medium;
+    opacity: 1;
+}
+
+@media only screen and (max-width: 900px) {
+    .customers img{
+        height: 45vh !important;
+    }
+}
+
+
+
+/* media query for mobile devices */
+
+@media only screen and (max-width: 600px) {
+    .customers img{
+        height: 20vh !important;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .customers img{
+        height: 16vh !important;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .testimonials  h1 {
+        color: white !important;
+        margin: 0px !important;
+        padding: 2rem;
+        font-size: xx-large !important;
+    }
+
+    .testimonials{
+        padding-top: 2rem ;
+    }
+
+    .testContent{
+        padding-left: 1rem;
+    }
+
+    .rakeshWord{
+        padding-top: 0px;
+        text-justify: auto;
+        padding-left: 1rem;
+    }
+
+
+    .citeRakesh{
+        padding-top: 0px;
+    }
+
+    .customers img{
+        height: 28vh;
+    }
+
+    .customers{
+        padding-top: 1rem;
+    }
+    .customers h1{
+        font-size: medium !important;
+        padding-top: 0.2rem;
+    }
+}
+
